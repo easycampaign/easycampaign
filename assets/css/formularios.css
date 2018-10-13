@@ -22,7 +22,14 @@ body{
 	position: absolute;
 	left: -10%;
 	top: 0;
+}.svg_text2 {
+    width: 68%;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    top: -28px;
 }
+
 .welcome_msg{
 	text-align: left;
 	margin: 16px auto;
@@ -85,6 +92,10 @@ footer{
 		width: 50%;
 		top: inherit;
 		left: -3%;
+	}.svg_text2 {
+		width: 33%;
+		top: inherit;
+		left: 0;
 	}.welcome_msg{
 		text-align: center;
 		margin: 0 auto 24px;
@@ -103,5 +114,8 @@ footer{
 	}.svg_text{
 		width: 55%;
 		left: -6%;
+	}.svg_text2 {
+		width: 34%;
+		left: 7%;
 	}
 }
