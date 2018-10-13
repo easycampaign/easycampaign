@@ -1,0 +1,107 @@
+body{
+	background-color: #fff;
+}
+.main{
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-position: -14px 0;
+    background-size: 107%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+    flex-direction: column;
+}
+.svg_text{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: -10%;
+	top: 0;
+}
+.welcome_msg{
+	text-align: left;
+	margin: 16px auto;
+}.welcome_msg p{
+	width: 100%;
+	margin-top: 16px;
+}
+form{
+	display: block;
+}form button{
+	margin: 16px auto;
+	display: block;
+}
+.logo{
+	width: 200px;
+}
+
+footer{
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}footer a{
+	text-decoration: underline;
+}
+@media only screen and (min-width: 412px){
+	.welcome_msg p{
+		width: 60%;
+		margin-top: 16px;
+	}.welcome_msg{
+		margin: 32px 16px;
+	}
+}@media only screen and (min-width: 768px){
+	.main{
+		padding: 150px 16px 0;
+	}
+}
+@media only screen and (min-width: 1024px){
+	.main{
+		background-image: url(../img/background_intro.svg);
+		background-repeat: no-repeat;
+		background-position: -224px 0;
+		background-size: auto;
+		display: flex;
+		justify-content: flex-end;
+		padding: 0;
+		width: 100vw;
+		height: 100vh;
+	}
+	.container{
+		width: 55%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		float: right;
+		padding: 60px 60px 60px 0;
+		box-sizing: border-box;
+	}.svg_text{
+		width: 50%;
+		top: inherit;
+		left: -3%;
+	}.welcome_msg{
+		text-align: center;
+		margin: 0 auto 24px;
+	}.welcome_msg p {
+		width: 100%;
+	}.logo{
+		width: 300px;
+	}footer{
+		bottom: 15px;
+		width: 90%;
+	}
+}
+@media only screen and (min-width: 1300px){
+	.main{
+		background-position: 0 0;
+	}.svg_text{
+		width: 55%;
+		left: -6%;
+	}
+}
