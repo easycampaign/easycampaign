@@ -1,7 +1,6 @@
 body{
 	background-color: #fff;
-}
-.main{
+}.main{
     background-image: url(../img/background.svg);
     background-repeat: no-repeat;
     background-position: -14px 0;
@@ -11,11 +10,42 @@ body{
     width: 100%;
     height: 100vh;
 	box-sizing: border-box;
-}
-.container{
+}.container{
 	display: flex;
     flex-direction: column;
 }
+.container_ativacao{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	max-width: 800px;
+	text-align: center;
+	margin-top: 80px;
+}.container_ativacao p{
+	margin: 16px 0 32px 0;
+}.container_ativacao footer{
+	width: 100%;
+	position: inherit;
+}
+
+.topbar_azul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}.topbar_azul:before{
+	content: '';
+	width: 100%;
+	height: 70px;
+	display: block;
+	position: absolute;
+	top: 0;
+	background: rgb(42,95,165);
+	background: -moz-linear-gradient(left, rgba(42,95,165,1) 0%, rgba(42,21,83,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(42,95,165,1) 0%,rgba(42,21,83,1) 100%);
+	background: linear-gradient(to right, rgba(42,95,165,1) 0%,rgba(42,21,83,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5fa5', endColorstr='#2a1553',GradientType=1 );
+}
+
 .svg_text{
 	width: 100%;
 	height: auto;
@@ -37,16 +67,33 @@ body{
 	width: 100%;
 	margin-top: 16px;
 }
+
 form{
 	display: block;
 }form button{
 	margin: 16px auto;
 	display: block;
 }
+
+form.activation label{
+	display: flex;
+}form.activation label span{
+	width: 124px;
+	height: 65px;
+	background-color: #fff;
+	border: 2px solid #E6E6E6;
+	border-radius: 4px 0 0 4px;
+	font-family: 'Roboto-Regular';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}form.activation label input{
+	border-radius: 0 30px 30px 0;
+}
+
 .logo{
 	width: 200px;
 }
-
 footer{
 	position: absolute;
 	bottom: -30px;
@@ -64,6 +111,10 @@ footer{
 }@media only screen and (min-width: 768px){
 	.main{
 		padding: 150px 16px 0;
+	}.container_ativacao footer{
+		position: absolute;
+		left: 0;
+		bottom: 0;
 	}
 }
 @media only screen and (min-width: 1024px){
