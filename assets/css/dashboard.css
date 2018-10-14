@@ -261,3 +261,13 @@ header{
 	}
 
 }
+
+@media only screen and (min-width: 1068px){
+	.card_active_campaign--content{
+		width: 300px;
+	}
+}@media only screen and (min-width: 1200px){
+	.card_active_campaign--content{
+		width: 380px;
+	}
+}

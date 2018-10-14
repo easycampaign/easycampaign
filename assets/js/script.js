@@ -45,8 +45,3 @@ function mtel(v){
 function id( el ){
 	return document.getElementById( el );
 }
-window.onload = function(){
-	id('telefone').onkeypress = function(){
-		mascara( this, mtel );
-	}
-}
