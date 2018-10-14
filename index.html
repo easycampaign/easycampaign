@@ -15,31 +15,31 @@
 					<img class="logo" src="assets/img/easycampaign.svg" alt="EasyCampaign">
 					<p class="p16 black_clear_text">Que bom que chegou até aqui, isso significa que já conversamos! Vamos continuar?</p>
 				</div>
-				<form action="">
+				<form action="ativacao.html">
 					<div class="row">
 						<label for="nome" class="label50">
 							<p class="p16 black_clear_text">Nome</p>
-							<input type="text" name="nome" id="nome" placeholder="Nome"/>
+							<input type="text" name="nome" id="nome" placeholder="Nome" required/>
 						</label>
 						<label for="sobrenome" class="label50">
 							<p class="p16 black_clear_text">Sobrenome</p>
-							<input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"/>
+							<input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required/>
 						</label>
 					</div>
 					<div class="row">
 						<label for="email">
 							<p class="p16 black_clear_text">E-mail</p>
-							<input type="text" name="email" id="email" placeholder="email@empresatal.com.br"/>
+							<input type="text" name="email" id="email" placeholder="email@empresatal.com.br" required/>
 						</label>
 					</div>
 					<div class="row">
 						<label for="senha" class="label50">
 							<p class="p16 black_clear_text">Senha</p>
-							<input type="text" name="senha" id="senha"/>
+							<input type="password" name="senha" id="senha" required/>
 						</label>
 						<label for="repeat_senha" class="label50">
 							<p class="p16 black_clear_text">Repita a senha</p>
-							<input type="text" name="repeat_senha" id="repeat_senha"/>
+							<input type="password" name="repeat_senha" id="repeat_senha" required/>
 						</label>
 					</div>
 					<button type="submit" class="blue_bg white_text p18">Cadastrar</button>

@@ -127,7 +127,7 @@ footer{
 		justify-content: flex-end;
 		padding: 0;
 		width: 100vw;
-		height: 100vh;
+		height: auto;
 	}
 	.container{
 		width: 55%;
@@ -138,7 +138,7 @@ footer{
 		margin: 0;
 		float: right;
 		padding: 60px 60px 60px 0;
-		box-sizing: border-box;
+		box-sizing: content-box;
 	}.svg_text{
 		width: 50%;
 		top: inherit;
@@ -161,7 +161,7 @@ footer{
 }
 @media only screen and (min-width: 1300px){
 	.main{
-		background-position: 0 0;
+		background-position: -126px 0;
 	}.svg_text{
 		width: 55%;
 		left: -6%;

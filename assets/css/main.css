@@ -148,12 +148,13 @@ label{
 	margin-bottom: 16px;
 }label p{
 	margin: 0 0 8px 16px;
-}input{
+}input, textarea{
 	color: #2D2B33;
 	background-color: #E6E6E6;
 	border-radius: 33px;
 	padding: 16px;
 	width: 100%;
+	resize: none;
 }.row{
 	display: flex;
 	flex-wrap: wrap;
