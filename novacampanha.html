@@ -61,17 +61,17 @@
 				</ul>
 				<div class="menufooter">
 					<ul>
-					<li class="menu_item">
-						<a href="contato.html" class="poppins_regular black_clear_text p16">
-							CONTATO
-						</a>
-					</li>
-					<li class="menu_item">
-						<a href="suporte.html" class="poppins_regular black_clear_text p16">
-							SUPORTE
-						</a>
-					</li>
-				</ul>
+						<li class="menu_item">
+							<a href="contato.html" class="poppins_regular black_clear_text p16">
+								CONTATO
+							</a>
+						</li>
+						<li class="menu_item">
+							<a href="suporte.html" class="poppins_regular black_clear_text p16">
+								SUPORTE
+							</a>
+						</li>
+					</ul>
 				</div>
 			</nav>
 			<div class="main">
@@ -88,7 +88,52 @@
 					<header>
 						<h2 class="page_title white_text">Nova campanha</h2>
 					</header>
-					<div class="card card-full"></div>
+					<div class="card card-full">
+						<ul id="progressbar">
+							<li class="campaign active">Campanha</li>
+							<li class="products p18">Produtos</li>
+							<li class="channels p18">Canais</li>
+							<li class="settings p18">Configurações</li>
+							<li class="confirm p18">Confirmação</li>
+						</ul>
+						<div class="content">
+							<div class="content_item newfromzero">
+								<h3 class="black_text">Campanha do zero</h3>
+								<p class="p18 black_clear_text">Já tem a inspiração necessária para criar sua campanha?</p>
+								<label for="newcampanha">
+									Nome da campanha
+									<input type="text" placeholder='Ex: "Black friday"'/>
+									<button type="submit" class="blue_bg white_text p16">VAMOS LÁ!</button>
+								</label>
+							</div>
+							<hr>
+							<div class="content_item suggestions">
+								<h3 class="black_text">Baseada nas sugestões</h3>
+								<div class="suggestions-filters">
+									<select name="tag">
+										<option value="1">Por TAG</option>
+									</select>
+									<select name="date">
+										<option value="1">Por data</option>
+									</select>
+								</div>
+								<div class="card_active_suggestions--slider">
+									<div href="#" class="card_active_suggestions--content">
+										<div class="suggestions-photo"></div>
+										<h4>Páscoa Feliz</h4>
+										<p class="gray_dark_text roboto_italic p16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+									<div href="#" class="card_active_suggestions--content">
+										<div class="suggestions-photo"></div>
+										<h4>Páscoa Feliz</h4>
+										<p class="gray_dark_text roboto_italic p16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+									<img src="assets/img/chevron-right-gray.svg" class="proximo">
+								</div>
+								<img src="assets/img/two_dots_slider.svg" class="dots">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>     
 		</div>
